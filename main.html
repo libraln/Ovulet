@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <title>Ovulet</title>
+        <link rel="stylesheet" href="mainb.css" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="web" />
+        <meta name="Ovulet" content="HTML, CSS, JavaScript" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="main-block">
+            <header>
+                <div class="ovulet">
+                    <img src="images/Logo.png" class="logo" />
+                    <div class="hurry">
+                        Не бійся дізнатись!<br />
+                        Поспіши діяти!
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="menubtn">Меню</div>
+                    <button onclick="myFunction()" class="headerbrg">
+                        <span></span>
+                    </button>
+                    <nav class="menu" id="myDropdown">
+                        <ul>
+                            <li><a href="#" target="_self">Про проект</a></li>
+                            <li><a href="#" target="_self">Календар</a></li>
+                            <li><a href="#" target="_self">Пройти тест</a></li>
+                            <li><a href="#" target="_self">Новини</a></li>
+                            <li>
+                                <button class="entrance_btn" href="" target="_self" id="ent_btn"><b>Вхід</b></button>
+                                <div class="line_vertical">|</div>
+                                <button class="entrance_btn" href="" target="_self"><b>Реєстрація</b></button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="overlay"></div>
+                <div class="custom">
+                    <a href="" target="_self" class="customername"> <img src="images/lola.png" class="lola" />Лола Франк</a>
+                    <div class="message">1</div>
+                </div>
+            </header>
+            <div class="block2">
+                <div class="block1">
+                    <div class="site">
+                        <span style="font-size: 25px;"><b>Ovulet</b></span> сайт для визначення овуляції
+                    </div>
+                    <div class="fernmethod">методом Папороті</div>
+                </div>
+                <img src="images/fern.png" class="imgfern" />
+                <div class="testbtn">
+                    <button onclick="document.location='https://www.'" class="dotest">Пройти тест</button>
+                </div>
+            </div>
+            <div class="stepcontainer">
+                <div class="step">
+                    <img src="images/micro.png" class="img1" />
+                    <h1 class="step-form">1 Крок</h1>
+                    <h2 class="algorythm">Зразок слини</h2>
+                    <p class="howdo">Для проведення тесту слід витягти предметне скло і залишити на ній свій зразок слини.</p>
+                </div>
+                <div class="step">
+                    <img src="images/photo.png" class="img1" />
+                    <h1 class="step-form">2 Крок</h1>
+                    <h2 class="algorythm">Зробити фото</h2>
+                    <p class="howdo">Сфотографувати скло вертикально під освітленням.</p>
+                </div>
+                <div class="step">
+                    <img src="images/doc2.png" class="img1" />
+                    <h1 class="step-form">3 Крок</h1>
+                    <h2 class="algorythm">Надіслати фото нам</h2>
+                    <p class="howdo">Надіслати фото ви можете у формі оплати тесту, перетягніть фото на ділянку яка вказана на зразку зверху.</p>
+                </div>
+                <div class="step">
+                    <div class="circle8">1</div>
+                    <img src="images/patient.png" class="img1" />
+                    <h1 class="step-form">4 Крок</h1>
+                    <h2 class="algorythm">Отримати результат</h2>
+                    <p class="howdo">Отримати результат ви можете у свому особистому кабінеті. Вам прийде сповіщення, тому слідкуйте за сайтом.</p>
+                </div>
+            </div>
+            <div class="contactform">
+                <div class="contact">Напишіть нам, ми онлайн!</div>
+                <div class="iconform">
+                    <a href="https://www.viber.com" target="_blank"><img src="images/viber.png" class="viber" /></a>
+                    <div class="line"></div>
+                    <a href="https://web.telegram.org" target="_blank"><img src="images/telegram.png" class="telegram" /></a>
+                </div>
+            </div>
+            <div class="foricons">
+                <div class="forpartn">
+                    <h1 class="partners">Наші партнери</h1>
+                    <h2 class="companies">Компанії які розробляють найновітніші технології та інструменти у галузі дослідження жіночого тіла.</h2>
+                </div>
+                <div class="iconscontainer">
+                    <div class="row">
+                        <a href="" target="_blank" class="icon">
+                            <img src="images/atos.png" class="logo14" />
+                        </a>
+                        <a href="" target="_blank" class="icon">
+                            <img src="images/physio.png" class="logo23" />
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" target="_blank" class="icon">
+                            <img src="images/kugel.png" class="logo23" />
+                        </a>
+                        <a href="" target="_blank" class="icon">
+                            <img src="images/privat.png" class="logo14" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="blockinquire">
+                <h1 class="inquireall">Дізнайся про все, що тобі потрібно знати</h1>
+            </div>
+            <div class="problemscontainer">
+                <div class="cont">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/pain.png" class="img2" />
+                        <img src="images/problems21.png" class="img2" />
+                    </picture>
+                    <h1 class="problems">Проблеми під час місячних</h1>
+                    <p class="description">
+                        Знаючи про причини проблем під час критичних днів, ти будеш підготована і зможеш легко впоратися з ними, у разі їх виникнення. Тож неважливо чи це судома, чи протікання, чи біль серйозні проблеми, що потребують
+                        допомоги лікаря – тут ти знайдеш усю необхідну інформацію.
+                    </p>
+                    <button onclick="document.location='https://www.'" class="inquire">Дізнатись більше</button>
+                </div>
+                <div class="cont">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/ok.png" class="img2" />
+                        <img src="images/pain.png" class="img2" />
+                    </picture>
+                    <h1 class="problems">Проблеми під час місячних</h1>
+                    <p class="description">
+                        Знаючи про причини проблем під час критичних днів, ти будеш підготована і зможеш легко впоратися з ними, у разі їх виникнення. Тож неважливо чи це судома, чи протікання, чи більш серйозні проблеми, що потребують
+                        допомоги лікаря – тут ти знайдеш усю необхідну інформацію.
+                    </p>
+                    <button onclick="document.location='https://www.'" class="inquire">Дізнатись більше</button>
+                </div>
+                <div class="cont">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/pain2.png" class="img2" />
+                        <img src="images/problems23.png" class="img2" />
+                    </picture>
+                    <h1 class="problems">Проблеми під час місячних</h1>
+                    <p class="description">
+                        Знаючи про причини проблем під час критичних днів, ти будеш підготована і зможеш легко впоратися з ними, у разі їх виникнення. Тож неважливо чи це судома, чи протікання, чи більш серйозні проблеми, що потребують
+                        допомоги лікаря – тут ти знайдеш усю необхідну інформацію.
+                    </p>
+                    <button onclick="document.location='https://www.'" class="inquire">Дізнатись більше</button>
+                </div>
+            </div>
+            <button onclick="document.location='https://www.'" class="more">Показати більше статей</button>
+            <footer>
+                <div class="footblock">
+                    <img class="phone" />
+                    <div class="nums">
+                        +380 96 564 30 40<br />
+                        +380 45 333 25 15
+                    </div>
+                </div>
+                <div class="footblock">
+                    <img class="mail" />
+                    <div class="mails">
+                        ovulet2019@gmail.com<br />
+                        ovulettoday@ukr.net
+                    </div>
+                </div>
+                <div class="follow">FOLLOW US</div>
+                <div class="footblock">
+                    <a href="https://www.instagram.com" target="_blank"><img class="insta" /></a>
+                    <a href="https://m.facebook.com" target="_blank"><img class="fb" /></a>
+                </div>
+                <div class="copyright">Copyright © 2019</div>
+            </footer>
+
+            <script>
+                const btnMenu = document.querySelector(".headerbrg");
+                const menu = document.querySelector(".menu");
+                const toggleMenu = function () {
+                    menu.classList.toggle("show");
+                    document.getElementById("overlay").style.display = "block";
+                    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+                };
+                btnMenu.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    toggleMenu();
+                });
+                document.addEventListener("click", function (e) {
+                    const target = e.target;
+                    const its_menu = target == menu || menu.contains(target);
+                    const its_btnMenu = target == btnMenu;
+                    const menu_is_active = menu.classList.contains("show");
+
+                    if (!its_menu && !its_btnMenu && menu_is_active) {
+                        toggleMenu();
+                        document.getElementById("overlay").style.display = "none";
+                        document.getElementsByTagName("body")[0].style.overflow = "scroll";
+                    }
+                });
+            </script>
+        </div>
+    </body>
+</html>
